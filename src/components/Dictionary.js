@@ -2,7 +2,7 @@ import { Conjugator } from "./Conjugator";
 
 export class Dictionary {
   
-  static STORAGE_SITE = 'https://koreanmadlibs.blob.core.windows.net/koreanvocab/vocab.json';
+  static STORAGE_SITE = 'https://raw.githubusercontent.com/ConfiacB/korean-training/master/vocab.json';
 
   static create = () => {
     return fetch(Dictionary.STORAGE_SITE).then((response) => {
