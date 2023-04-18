@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.center-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  position: relative;
+}
+
+/* main styles */
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #060F13; 
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 30px;
+  padding: 8px;
+  padding-top: 16px;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+/* SentenceCardComponent styles */
+
+.practice-mode {
+  margin: 20px;
+  margin-top: 60px;
+}
+
+.selectCSS {
+  width: auto;
+  font-size: 18px;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #fff;
+  border: 1px solid #33BBBF;
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 24px;
+  min-height: 32px;
+  margin: 0px 0px 12px 0px;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 0.0625em;
+  font-family: Verdana, Tahoma, sans-serif, monospace;
+}
+
+.next-button-container {
+  text-align: right;
+  margin-top: 16px;
+}
